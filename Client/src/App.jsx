@@ -8,7 +8,7 @@ import { assets } from './assets/assets'
 import './assets/prism.css'
 import Loading from './Pages/Loading'
 import useAppContext from './context/Appcontext'
-import Login from './Pages/login'
+import Login from './Pages/Login'
 import {Toaster} from 'react-hot-toast';
 const App = () => {
 
@@ -17,7 +17,7 @@ const App = () => {
 
 const [isMenuOpened , setIsMenuOpened] = useState(false);
 const {pathname} = useLocation();
-if(pathname === '/Loading' || loadingUser) return <Loading/>
+if(pathname === '/loading' || loadingUser) return <Loading/>
 
   return (
     <>
