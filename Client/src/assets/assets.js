@@ -6,7 +6,6 @@ import user_icon from "./user_icon.svg";
 import theme_icon from "./theme_icon.svg";
 import send_icon from "./send_icon.svg";
 import stop_icon from "./stop_icon.svg";
-import mountain_img from "./mountain_img.jpg";
 import menu_icon from "./menu_icon.svg";
 import close_icon from "./close_icon.svg";
 import bin_icon from "./bin_icon.svg";
@@ -14,18 +13,24 @@ import logout_icon from "./logout_icon.svg";
 import diamond_icon from "./diamond_icon.svg";
 import gallery_icon from "./gallery_icon.svg";
 
-import ai_image1 from "./ai_image1.jpg";
-import ai_image2 from "./ai_image2.jpg";
-import ai_image3 from "./ai_image3.jpg";
-import ai_image4 from "./ai_image4.jpg";
-import ai_image5 from "./ai_image5.jpg";
-import ai_image6 from "./ai_image6.jpg";
-import ai_image7 from "./ai_image7.jpg";
-import ai_image8 from "./ai_image8.jpg";
-import ai_image9 from "./ai_image9.jpg";
-import ai_image10 from "./ai_image10.jpg";
-import ai_image11 from "./ai_image11.jpg";
-import ai_image12 from "./ai_image12.jpg";
+// Dynamically load JPGs (safe when images are excluded from the repo)
+const jpgModules = import.meta.globEager('./*.jpg');
+const getJpg = (name) => (jpgModules[`./${name}`] && jpgModules[`./${name}`].default) || '';
+const mountain_img = getJpg('mountain_img.jpg');
+const ai_image1 = getJpg('ai_image1.jpg');
+const ai_image2 = getJpg('ai_image2.jpg');
+const ai_image3 = getJpg('ai_image3.jpg');
+const ai_image4 = getJpg('ai_image4.jpg');
+const ai_image5 = getJpg('ai_image5.jpg');
+const ai_image6 = getJpg('ai_image6.jpg');
+const ai_image7 = getJpg('ai_image7.jpg');
+const ai_image8 = getJpg('ai_image8.jpg');
+const ai_image9 = getJpg('ai_image9.jpg');
+const ai_image10 = getJpg('ai_image10.jpg');
+const ai_image11 = getJpg('ai_image11.jpg');
+const ai_image12 = getJpg('ai_image12.jpg');
+
+
 
 export const assets = {
     logo,
