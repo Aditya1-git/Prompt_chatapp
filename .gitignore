@@ -1,0 +1,56 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Build outputs
+dist/
+build/
+Client/dist/
+Client/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Caches
+.cache/
+.parcel-cache/
+.vite/
+
+# Test coverage
+coverage/
+
+# Client/Server local envs
+Client/.env
+server/.env
+
+# Misc
+*.tgz
+*.log
+
+# Ignore local sqlite/db files
+*.sqlite
+
+# Images/assets generated during dev
+*.png
+*.jpg
+*.jpeg

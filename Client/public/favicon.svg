@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="1024" viewBox="0 0 1280 1024" xml:space="preserve">
+<desc>Created with Fabric.js 5.3.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 640 512)" id="background-logo"  >
+<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  x="-640" y="-512" rx="0" ry="0" width="1280" height="1024" />
+</g>
+<g transform="matrix(1.9211538461538462 0 0 1.9211538461538462 674.9070558182443 508.1483759122596)" id="text-logo"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="text-logo-path-0"  >
+<linearGradient id="SVGID_157062" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 8.899999999999999 -88.2)"  x1="19.636862908357358" y1="-29.605541250000016" x2="19.636862908357337" y2="80.28349134416328">
+<stop offset="0%" style="stop-color:rgb(91,36,122);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(27,206,223);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1.4391146210828802; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_157062); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-41.614999999999995, 44.1)" d="M 17.54 0 L 8.9 0 L 8.9 -70.14 Q 8.9 -88.2 26.7 -88.2 L 26.7 -88.2 L 41.74 -88.2 Q 74.33 -88.2 74.33 -58.63 L 74.33 -58.63 Q 74.33 -29.05 41.74 -29.05 L 41.74 -29.05 L 28.79 -29.05 L 28.79 -13.09 Q 28.79 0 17.54 0 L 17.54 0 Z M 39.78 -72.63 L 39.78 -72.63 L 34.29 -72.63 Q 28.79 -72.63 28.79 -66.48 L 28.79 -66.48 L 28.79 -44.62 L 39.78 -44.62 Q 54.04 -44.62 54.04 -58.63 L 54.04 -58.63 Q 54.04 -72.63 39.78 -72.63 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
